@@ -1,9 +1,10 @@
+//(n-2) + n
 
 public class TracingA
 	{
 	public static void main(String[] args)
 		{
-		System.out.println(trace(5));
+		System.out.println(trace(2));
 		}
 	
 	public static int trace(int n)
@@ -14,7 +15,7 @@ public class TracingA
 			}
 		else
 			{
-			return trace(n - 2) + n;
+			return trace(n - 3) + n;
 			}
 		}
 	}
